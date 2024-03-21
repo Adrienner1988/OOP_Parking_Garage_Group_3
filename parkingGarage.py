@@ -70,25 +70,6 @@ class ParkingGarage():
                 print(f'There are {self.parkingSpaces} available spaces.')
         else:
             print('You must pay for parking before leaving.')  # Prompt user to pay if they haven't already
-
-
-    # def leaveGarage(self):
-    #     pay_status = int(input('Please enter 3 to leave, if parking is not paid, enter 15 to pay for your day parking.: '))
-        
-    #     while True:
-    #         if pay_status == 3:
-    #             print('Thank you have a nice day!')
-    #             self.currentTicket == True
-    #             self.tickets += 1
-    #             self.parkingSpaces += 1
-    #             print(f'There are {self.parkingSpaces} available spaces.')
-    #             break
-    #         elif self.currentTicket == False:
-    #             break
-    #         elif pay_status == 15:
-    #             self.currentTicket == False
-    #             print('Please enter 15 to pay for your parking ticket.: ')
-    #             break
         
 Oop = ParkingGarage() 
 Oop.runner()
